@@ -1,0 +1,479 @@
+16-Apr-2023 14:55:01.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.87
+16-Apr-2023 14:55:01.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 27 2023 19:32:33 UTC
+16-Apr-2023 14:55:01.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.87.0
+16-Apr-2023 14:55:01.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+16-Apr-2023 14:55:01.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+16-Apr-2023 14:55:01.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+16-Apr-2023 14:55:01.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-20
+16-Apr-2023 14:55:01.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       20+36-2344
+16-Apr-2023 14:55:01.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+16-Apr-2023 14:55:01.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 14:55:01.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 14:55:01.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Apr-2023 14:55:01.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+16-Apr-2023 14:55:01.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+16-Apr-2023 14:55:01.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Apr-2023 14:55:01.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Apr-2023 14:55:01.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\conf\logging.properties
+16-Apr-2023 14:55:01.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Apr-2023 14:55:01.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+16-Apr-2023 14:55:01.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Apr-2023 14:55:01.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+16-Apr-2023 14:55:01.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 14:55:01.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 14:55:01.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\temp
+16-Apr-2023 14:55:02.028 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+16-Apr-2023 14:55:02.028 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+16-Apr-2023 14:55:02.028 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-Apr-2023 14:55:03.049 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+16-Apr-2023 14:55:03.485 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+16-Apr-2023 14:55:04.213 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 9539 ms
+16-Apr-2023 14:55:05.727 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+16-Apr-2023 14:55:05.727 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.87]
+16-Apr-2023 14:55:06.027 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\docs] de la aplicación web
+16-Apr-2023 14:55:09.641 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [224] milliseconds.
+16-Apr-2023 14:55:09.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\docs] has finished in [3.845] ms
+16-Apr-2023 14:55:09.875 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\examples] de la aplicación web
+16-Apr-2023 14:55:13.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\examples] has finished in [3.617] ms
+16-Apr-2023 14:55:13.491 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\host-manager] de la aplicación web
+16-Apr-2023 14:55:13.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\host-manager] has finished in [298] ms
+16-Apr-2023 14:55:13.792 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\manager] de la aplicación web
+16-Apr-2023 14:55:14.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\manager] has finished in [295] ms
+16-Apr-2023 14:55:14.091 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\ROOT] de la aplicación web
+16-Apr-2023 14:55:14.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\ROOT] has finished in [153] ms
+16-Apr-2023 14:55:14.249 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 14:55:14.631 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 10404 ms
+16-Apr-2023 14:55:56.521 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 14:55:57.684 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 14:55:58.589 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 14:55:59.283 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 14:55:59.790 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 14:56:00.518 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 14:56:00.583 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 14:57:25.859 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 14:57:26.634 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 14:57:27.397 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 14:57:28.316 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 14:57:29.409 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 14:57:30.152 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 14:57:30.833 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 14:57:32.718 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 14:57:33.784 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 14:57:33.860 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:31.828 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:32.685 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:33.445 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:34.252 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:34.937 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:35.709 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:36.382 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:37.311 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:38.084 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:39.689 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:40.388 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:40.698 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:41.438 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:41.754 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:42.076 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:42.413 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:42.696 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:42.999 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:43.333 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:43.610 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:43.906 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:44.169 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:44.487 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:00:44.952 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:01:00.944 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:01:01.569 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:01:41.094 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:01:41.570 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:01:41.905 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:01:42.493 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:01:42.523 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:01:59.418 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:02:01.462 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:02:04.652 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:05.258 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:05.972 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:06.246 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:06.499 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:06.775 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:07.026 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:07.232 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:07.437 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:07.709 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:07.910 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:08.341 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:08.504 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:08.624 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:08.903 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:09.112 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:09.934 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:12.139 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:02:12.161 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:02:18.997 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:02:20.208 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:02:20.229 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado []
+16-Apr-2023 15:03:58.372 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:03:59.384 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:03:59.980 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:03.914 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:04.572 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:05.059 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:05.392 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:05.805 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:06.015 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:06.418 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:06.700 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:06.966 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:07.512 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:07.743 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:08.534 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:08.717 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:15.763 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaND]
+16-Apr-2023 15:04:51.285 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaD]
+16-Apr-2023 15:04:51.665 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaD]
+16-Apr-2023 15:04:51.945 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaD]
+16-Apr-2023 15:04:52.177 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaD]
+16-Apr-2023 15:04:52.369 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaD]
+16-Apr-2023 15:04:52.589 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaD]
+16-Apr-2023 15:04:52.835 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaD]
+16-Apr-2023 15:04:53.010 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NoeliaD]
+16-Apr-2023 15:05:32.070 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:05:32.443 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:05:32.910 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:05:36.627 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+16-Apr-2023 15:05:36.628 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:05:36.675 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+16-Apr-2023 15:05:37.033 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:05:37.112 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:07:19.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.87
+16-Apr-2023 15:07:19.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 27 2023 19:32:33 UTC
+16-Apr-2023 15:07:19.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.87.0
+16-Apr-2023 15:07:19.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+16-Apr-2023 15:07:19.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+16-Apr-2023 15:07:19.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+16-Apr-2023 15:07:19.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-20
+16-Apr-2023 15:07:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       20+36-2344
+16-Apr-2023 15:07:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+16-Apr-2023 15:07:19.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:07:19.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:07:19.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Apr-2023 15:07:19.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+16-Apr-2023 15:07:19.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+16-Apr-2023 15:07:19.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Apr-2023 15:07:19.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Apr-2023 15:07:19.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\conf\logging.properties
+16-Apr-2023 15:07:19.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Apr-2023 15:07:19.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+16-Apr-2023 15:07:19.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Apr-2023 15:07:19.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+16-Apr-2023 15:07:19.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:07:19.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:07:19.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\temp
+16-Apr-2023 15:07:20.178 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+16-Apr-2023 15:07:20.178 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+16-Apr-2023 15:07:20.179 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-Apr-2023 15:07:20.796 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+16-Apr-2023 15:07:21.130 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+16-Apr-2023 15:07:21.451 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 7631 ms
+16-Apr-2023 15:07:21.923 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+16-Apr-2023 15:07:21.924 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.87]
+16-Apr-2023 15:07:21.978 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\docs] de la aplicación web
+16-Apr-2023 15:07:24.752 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [288] milliseconds.
+16-Apr-2023 15:07:25.078 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\docs] has finished in [3.100] ms
+16-Apr-2023 15:07:25.080 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\examples] de la aplicación web
+16-Apr-2023 15:07:28.772 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\examples] has finished in [3.692] ms
+16-Apr-2023 15:07:28.772 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\host-manager] de la aplicación web
+16-Apr-2023 15:07:29.103 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\host-manager] has finished in [331] ms
+16-Apr-2023 15:07:29.104 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\manager] de la aplicación web
+16-Apr-2023 15:07:29.413 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\manager] has finished in [308] ms
+16-Apr-2023 15:07:29.414 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\ROOT] de la aplicación web
+16-Apr-2023 15:07:29.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\ROOT] has finished in [156] ms
+16-Apr-2023 15:07:29.577 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:07:29.861 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8399 ms
+16-Apr-2023 15:07:43.536 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:07:44.062 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:07:44.384 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:07:44.678 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:07:44.958 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:07:45.256 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:07:45.579 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:07:47.674 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:07:47.690 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:08:27.019 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:08:30.214 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:08:30.226 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:09:09.693 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:09:10.596 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:09:21.678 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+16-Apr-2023 15:09:21.678 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:09:21.701 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+16-Apr-2023 15:09:22.008 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:09:22.063 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:09:42.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.87
+16-Apr-2023 15:09:42.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 27 2023 19:32:33 UTC
+16-Apr-2023 15:09:42.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.87.0
+16-Apr-2023 15:09:42.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+16-Apr-2023 15:09:42.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+16-Apr-2023 15:09:42.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+16-Apr-2023 15:09:42.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-20
+16-Apr-2023 15:09:42.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       20+36-2344
+16-Apr-2023 15:09:42.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+16-Apr-2023 15:09:42.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:09:42.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:09:42.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Apr-2023 15:09:42.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+16-Apr-2023 15:09:42.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+16-Apr-2023 15:09:42.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Apr-2023 15:09:42.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Apr-2023 15:09:42.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\conf\logging.properties
+16-Apr-2023 15:09:42.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Apr-2023 15:09:42.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+16-Apr-2023 15:09:42.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Apr-2023 15:09:42.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+16-Apr-2023 15:09:42.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:09:42.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:09:42.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\temp
+16-Apr-2023 15:09:42.757 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+16-Apr-2023 15:09:42.757 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+16-Apr-2023 15:09:42.757 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-Apr-2023 15:09:44.473 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+16-Apr-2023 15:09:44.873 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+16-Apr-2023 15:09:45.557 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 11008 ms
+16-Apr-2023 15:09:46.190 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+16-Apr-2023 15:09:46.192 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.87]
+16-Apr-2023 15:09:46.262 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\docs] de la aplicación web
+16-Apr-2023 15:09:52.053 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [311] milliseconds.
+16-Apr-2023 15:09:52.155 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\docs] has finished in [5.892] ms
+16-Apr-2023 15:09:52.156 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\examples] de la aplicación web
+16-Apr-2023 15:09:56.095 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\examples] has finished in [3.939] ms
+16-Apr-2023 15:09:56.096 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\host-manager] de la aplicación web
+16-Apr-2023 15:09:56.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\host-manager] has finished in [295] ms
+16-Apr-2023 15:09:56.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\manager] de la aplicación web
+16-Apr-2023 15:09:56.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\manager] has finished in [180] ms
+16-Apr-2023 15:09:56.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\ROOT] de la aplicación web
+16-Apr-2023 15:09:56.775 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\ROOT] has finished in [201] ms
+16-Apr-2023 15:09:56.779 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:09:57.051 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 11490 ms
+16-Apr-2023 15:15:31.996 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:32.566 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:33.027 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:33.882 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:34.431 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:34.936 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:35.374 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:35.783 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:36.113 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:36.439 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:36.957 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:37.222 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:37.472 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:37.773 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:38.061 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:38.331 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:38.578 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:38.823 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:39.073 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:39.334 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:39.795 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:40.063 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:40.313 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:40.606 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:40.832 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:41.088 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:41.339 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:41.568 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:41.830 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:42.086 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:42.307 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:42.555 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:42.762 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:43.020 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:43.223 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:43.422 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:43.612 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:43.817 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:44.036 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:44.246 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:44.433 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:44.613 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:44.810 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:45.001 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:45.222 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:45.413 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:45.614 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:45.802 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:46.024 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:46.308 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:46.628 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:46.821 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:47.027 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:47.243 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:47.475 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:47.688 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:47.910 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:48.132 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:48.318 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:48.912 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:49.080 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:49.911 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:50.156 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:50.353 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:50.597 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:50.811 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:51.043 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:51.240 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:51.485 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:51.683 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:51.949 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:52.144 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:52.371 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:52.583 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:52.854 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:15:54.334 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:31.731 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:32.632 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:33.411 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:33.940 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:34.350 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:34.640 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:34.910 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:35.186 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:36.022 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:36.308 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:36.558 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [NOELIA]
+16-Apr-2023 15:20:44.796 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto []
+16-Apr-2023 15:20:44.870 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto []
+16-Apr-2023 15:20:49.166 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+16-Apr-2023 15:20:49.166 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [] debido a errores previos
+16-Apr-2023 15:20:49.174 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 15:20:49.176 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/examples]
+16-Apr-2023 15:20:49.176 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examples]
+16-Apr-2023 15:20:56.339 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+16-Apr-2023 15:20:56.339 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/examples] debido a errores previos
+16-Apr-2023 15:20:56.355 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 15:20:56.355 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/host-manager]
+16-Apr-2023 15:20:56.355 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/host-manager]
+16-Apr-2023 15:20:56.449 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+16-Apr-2023 15:20:56.449 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/host-manager] debido a errores previos
+16-Apr-2023 15:20:56.464 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 15:20:56.464 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/manager]
+16-Apr-2023 15:20:56.464 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/manager]
+16-Apr-2023 15:20:56.606 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+16-Apr-2023 15:20:56.610 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/manager] debido a errores previos
+16-Apr-2023 15:20:56.734 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 15:20:56.735 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/docs]
+16-Apr-2023 15:20:56.736 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/docs]
+16-Apr-2023 15:20:56.949 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+16-Apr-2023 15:20:56.949 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/docs] debido a errores previos
+16-Apr-2023 15:20:56.962 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 15:21:06.985 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto []
+16-Apr-2023 15:21:07.253 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/examples]
+16-Apr-2023 15:21:09.259 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/host-manager]
+16-Apr-2023 15:21:09.371 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/manager]
+16-Apr-2023 15:21:09.525 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Falló la recarga del contexto [/docs]
+16-Apr-2023 15:21:29.148 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [Noelia]
+16-Apr-2023 15:21:47.429 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [Noelia]
+16-Apr-2023 15:21:49.810 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [Noelia]
+16-Apr-2023 15:21:49.823 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [Noelia]
+16-Apr-2023 15:25:14.295 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [Noelia]
+16-Apr-2023 15:25:19.308 WARNING [http-nio-8080-exec-21] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [Noelia]
+16-Apr-2023 15:25:19.353 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [Noelia]
+16-Apr-2023 15:32:48.736 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts Se ha intentado autenticar al usuario bloqueado [Noelia]
+16-Apr-2023 15:33:02.267 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+16-Apr-2023 15:33:02.411 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:33:02.628 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+16-Apr-2023 15:33:02.754 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:33:03.126 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:41:38.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.87
+16-Apr-2023 15:41:38.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 27 2023 19:32:33 UTC
+16-Apr-2023 15:41:38.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.87.0
+16-Apr-2023 15:41:38.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+16-Apr-2023 15:41:38.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+16-Apr-2023 15:41:38.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+16-Apr-2023 15:41:38.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-20
+16-Apr-2023 15:41:38.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       20+36-2344
+16-Apr-2023 15:41:38.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+16-Apr-2023 15:41:38.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:41:38.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:41:38.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Apr-2023 15:41:38.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+16-Apr-2023 15:41:38.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+16-Apr-2023 15:41:38.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Apr-2023 15:41:38.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Apr-2023 15:41:38.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\conf\logging.properties
+16-Apr-2023 15:41:38.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Apr-2023 15:41:38.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+16-Apr-2023 15:41:38.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Apr-2023 15:41:38.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+16-Apr-2023 15:41:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:41:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87
+16-Apr-2023 15:41:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\temp
+16-Apr-2023 15:41:38.453 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+16-Apr-2023 15:41:38.453 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+16-Apr-2023 15:41:38.453 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-Apr-2023 15:41:39.028 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+16-Apr-2023 15:41:39.581 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+16-Apr-2023 15:41:40.080 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 7433 ms
+16-Apr-2023 15:41:40.567 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+16-Apr-2023 15:41:40.567 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.87]
+16-Apr-2023 15:41:40.713 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\docs] de la aplicación web
+16-Apr-2023 15:41:44.867 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 15:41:45.777 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [412] milliseconds.
+16-Apr-2023 15:41:46.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\docs] has finished in [5.368] ms
+16-Apr-2023 15:41:46.085 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\examples] de la aplicación web
+16-Apr-2023 15:41:49.688 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 15:41:49.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\examples] has finished in [3.913] ms
+16-Apr-2023 15:41:49.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\host-manager] de la aplicación web
+16-Apr-2023 15:41:51.348 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 15:41:51.441 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\host-manager] has finished in [1.443] ms
+16-Apr-2023 15:41:51.443 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\manager] de la aplicación web
+16-Apr-2023 15:41:52.488 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 15:41:52.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\manager] has finished in [1.075] ms
+16-Apr-2023 15:41:52.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\ROOT] de la aplicación web
+16-Apr-2023 15:41:53.209 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 15:41:53.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\webapps\ROOT] has finished in [700] ms
+16-Apr-2023 15:41:53.234 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 15:41:54.095 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 14008 ms
+16-Apr-2023 15:41:55.383 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\conf\Catalina\localhost\PruebaJSP.xml]
+16-Apr-2023 15:41:55.672 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 15:41:55.873 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\noeli\OneDrive\Documentos\Programador Web YoProgramo 2023\Portfolio_Backend\apache-tomcat-8.5.87\conf\Catalina\localhost\PruebaJSP.xml] has finished in [490] ms
+16-Apr-2023 15:41:55.879 INFO [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PruebaJSP]] after start() had already been called. The second call will be ignored.
+16-Apr-2023 15:55:05.980 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PruebaJSP]
+16-Apr-2023 15:55:20.106 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 15:55:20.324 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 15:55:21.747 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PruebaJSP]
+16-Apr-2023 15:55:22.246 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 15:55:22.267 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 16:12:58.040 INFO [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PruebaJSP]
+16-Apr-2023 16:13:16.828 INFO [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 16:13:17.328 INFO [http-nio-8080-exec-16] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 16:17:08.420 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PruebaJSP]
+16-Apr-2023 16:17:10.703 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 16:17:11.062 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 16:22:22.155 INFO [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PruebaJSP]
+16-Apr-2023 16:22:24.162 INFO [http-nio-8080-exec-37] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 16:22:24.168 INFO [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 16:32:45.740 INFO [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PruebaJSP]
+16-Apr-2023 16:32:53.156 INFO [http-nio-8080-exec-42] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 16:32:53.455 INFO [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 16:36:14.648 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PruebaJSP]
+16-Apr-2023 16:36:19.591 INFO [http-nio-8080-exec-54] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 16:36:19.604 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 16:38:52.516 INFO [http-nio-8080-exec-60] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PruebaJSP]
+16-Apr-2023 16:38:56.535 INFO [http-nio-8080-exec-60] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 16:38:56.712 INFO [http-nio-8080-exec-60] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 16:48:50.410 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/PruebaJSP]
+16-Apr-2023 16:48:57.446 INFO [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-Apr-2023 16:48:57.831 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+16-Apr-2023 16:55:29.450 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+16-Apr-2023 16:55:29.658 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 16:55:31.642 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+16-Apr-2023 16:55:32.700 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Apr-2023 16:55:34.585 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

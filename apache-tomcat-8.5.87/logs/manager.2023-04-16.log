@@ -1,0 +1,59 @@
+16-Apr-2023 15:20:56.604 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.filterStart Excepción arrancando filtro [HTTPMonitorFilter]
+	java.lang.ClassNotFoundException: org.netbeans.modules.web.monitor.server.MonitorFilter
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1420)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1228)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:486)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:468)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:141)
+		at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:252)
+		at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:100)
+		at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4343)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4976)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3574)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1435)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1407)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1646)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1109)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1331)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1335)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1303)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+16-Apr-2023 15:41:55.287 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16-Apr-2023 15:41:55.287 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+16-Apr-2023 15:41:55.327 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:41:55.353 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:41:55.372 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/noeli/AppData/Local/Temp/context17237255319006001842.xml'
+16-Apr-2023 15:41:55.879 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/PruebaJSP'
+16-Apr-2023 15:43:27.103 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:43:28.985 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:43:28.985 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:50:45.499 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:51:14.624 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:51:14.661 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:55:05.407 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:55:05.966 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PruebaJSP'
+16-Apr-2023 15:55:21.716 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 15:55:21.747 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PruebaJSP'
+16-Apr-2023 16:12:57.450 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:12:58.025 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PruebaJSP'
+16-Apr-2023 16:17:08.270 INFO [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:17:08.420 INFO [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PruebaJSP'
+16-Apr-2023 16:19:19.959 INFO [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:22:22.015 INFO [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:22:22.155 INFO [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PruebaJSP'
+16-Apr-2023 16:24:31.038 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:32:26.079 INFO [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:32:45.331 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:32:45.681 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PruebaJSP'
+16-Apr-2023 16:36:14.618 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:36:14.648 INFO [http-nio-8080-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PruebaJSP'
+16-Apr-2023 16:38:52.363 INFO [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:38:52.410 INFO [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:38:52.514 INFO [http-nio-8080-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PruebaJSP'
+16-Apr-2023 16:41:50.310 INFO [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:41:50.353 INFO [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:48:50.354 INFO [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+16-Apr-2023 16:48:50.385 INFO [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PruebaJSP'
